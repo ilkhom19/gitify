@@ -5,29 +5,27 @@ import java.security.NoSuchAlgorithmException;
 import java.util.HashMap;
 import java.util.Map;
 
-public class Tree {
-    private final Map<String, Object> entries; // Object can be Blob or Tree as stated in the instructions
-    private final String hash;
-
+public class Tree extends GitObject {
+    private final Map<String, GitObject> entries; // Object can be Blob or Tree
     public Tree() {
         this.entries = new HashMap<>();
-        this.hash = calculateHash(entries);
     }
 
-    public void addEntry(String name, Object entry) {
+    public void addEntry(String name, GitObject entry) {
         entries.put(name, entry);
     }
 
+    @Override
     public String getHash() {
-        return hash;
+        return calculateHash(entries);
     }
 
-    private String calculateHash(Map<String, Object> entries) {
+    private String calculateHash(Map<String, GitObject> entries) {
         try {
             MessageDigest digest = MessageDigest.getInstance("SHA-1");
-            StringBuilder concatenatedEntries = new StringBuilder();
-            entries.forEach((name, entry) -> concatenatedEntries.append(name).append(((GitObject) entry).getHash()));
-            byte[] hashBytes = digest.digest(concatenatedEntries.toString().getBytes());
+            StringBuilder concatenatedEntriesHashes = new StringBuilder();
+            entries.forEach((name, entry) -> concatenatedEntriesHashes.append(name).append((entry).getHash()));
+            byte[] hashBytes = digest.digest(concatenatedEntriesHashes.toString().getBytes());
             return bytesToHex(hashBytes);
         } catch (NoSuchAlgorithmException e) {
             throw new RuntimeException("SHA-1 algorithm not available", e);

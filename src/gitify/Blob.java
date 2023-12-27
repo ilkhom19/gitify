@@ -3,15 +3,14 @@ package gitify;
 import java.security.MessageDigest;
 import java.security.NoSuchAlgorithmException;
 
-public class Blob {
-    private final String data;
+public class Blob extends GitObject{
     private final String hash;
 
     public Blob(String data) {
-        this.data = data;
         this.hash = calculateHash(data);
     }
 
+    @Override
     public String getHash() {
         return hash;
     }

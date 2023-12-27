@@ -1,13 +1,6 @@
 package gitify;
 
-public class GitObject {
-    private final String hash;
-
-    public GitObject(String hash) {
-        this.hash = hash;
-    }
-
-    public String getHash() {
-        return hash;
-    }
+public abstract class GitObject {
+    public abstract String getHash();
 }
+
