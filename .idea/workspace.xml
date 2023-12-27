@@ -4,12 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="3ea15d85-6332-449b-bbb4-fc5574b41068" name="Changes" comment="Search in HasMap">
+    <list default="true" id="3ea15d85-6332-449b-bbb4-fc5574b41068" name="Changes" comment="demo modify">
+      <change afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/GitifyDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/GitifyDemo.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/gitify/Blob.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/gitify/Blob.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/gitify/Commit.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/gitify/Commit.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/gitify/GitLibrary.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/gitify/GitLibrary.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -25,6 +22,9 @@
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
   </component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 5
@@ -229,7 +229,23 @@
       <option name="project" value="LOCAL" />
       <updated>1703672533333</updated>
     </task>
-    <option name="localTasksCounter" value="14" />
+    <task id="LOCAL-00014" summary="Search improved">
+      <option name="closed" value="true" />
+      <created>1703674508248</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1703674508248</updated>
+    </task>
+    <task id="LOCAL-00015" summary="demo modify">
+      <option name="closed" value="true" />
+      <created>1703674516646</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1703674516646</updated>
+    </task>
+    <option name="localTasksCounter" value="16" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -248,7 +264,9 @@
     <MESSAGE value="added tests for commit" />
     <MESSAGE value="modif" />
     <MESSAGE value="Search in HasMap" />
-    <option name="LAST_COMMIT_MESSAGE" value="Search in HasMap" />
+    <MESSAGE value="Search improved" />
+    <MESSAGE value="demo modify" />
+    <option name="LAST_COMMIT_MESSAGE" value="demo modify" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
