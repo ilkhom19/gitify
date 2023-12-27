@@ -6,7 +6,6 @@
   <component name="ChangeListManager">
     <list default="true" id="3ea15d85-6332-449b-bbb4-fc5574b41068" name="Changes" comment="added tests for commit">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/TreeTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/TreeTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -23,9 +22,9 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="ProjectColorInfo"><![CDATA[{
-  "associatedIndex": 5
-}]]></component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 5
+}</component>
   <component name="ProjectId" id="2a7BhXZK4r1bQSShpVafIyRSHfd" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="2" id="Add" />
@@ -44,6 +43,7 @@
     "JUnit.TreeTest.executor": "Run",
     "JUnit.TreeTest.testNestedTreesHash.executor": "Run",
     "JUnit.TreeTest.testTreeHash.executor": "Debug",
+    "JUnit.test in gitify.executor": "Run",
     "Repository.Attach.Annotations": "false",
     "Repository.Attach.JavaDocs": "false",
     "Repository.Attach.Sources": "false",
@@ -99,8 +99,8 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.TreeTest.testNestedTreesHash" />
         <item itemvalue="JUnit.BlobTest" />
+        <item itemvalue="JUnit.TreeTest.testNestedTreesHash" />
       </list>
     </recent_temporary>
   </component>
@@ -226,7 +226,7 @@
         <line-breakpoint enabled="true" type="java-method">
           <url>file://$PROJECT_DIR$/src/test/TreeTest.java</url>
           <line>40</line>
-          <properties class="test.TreeTest" method="testNestedTreesHash">
+          <properties class="test.TreeTest">
             <option name="EMULATED" value="true" />
             <option name="WATCH_EXIT" value="false" />
           </properties>
