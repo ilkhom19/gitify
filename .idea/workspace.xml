@@ -4,9 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="3ea15d85-6332-449b-bbb4-fc5574b41068" name="Changes" comment="added tests">
-      <change afterPath="$PROJECT_DIR$/src/test/CommitTest.java" afterDir="false" />
+    <list default="true" id="3ea15d85-6332-449b-bbb4-fc5574b41068" name="Changes" comment="added tests for commit">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/TreeTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/TreeTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -42,6 +42,7 @@
     "JUnit.BlobTest.executor": "Run",
     "JUnit.CommitTest.executor": "Run",
     "JUnit.TreeTest.executor": "Run",
+    "JUnit.TreeTest.testNestedTreesHash.executor": "Run",
     "JUnit.TreeTest.testTreeHash.executor": "Debug",
     "Repository.Attach.Annotations": "false",
     "Repository.Attach.JavaDocs": "false",
@@ -80,8 +81,25 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="TreeTest.testNestedTreesHash" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="gitify" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="test.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="test" />
+      <option name="MAIN_CLASS_NAME" value="test.TreeTest" />
+      <option name="METHOD_NAME" value="testNestedTreesHash" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.TreeTest.testNestedTreesHash" />
         <item itemvalue="JUnit.BlobTest" />
       </list>
     </recent_temporary>
@@ -101,7 +119,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1703659856931</updated>
-      <workItem from="1703659858017" duration="4751000" />
+      <workItem from="1703659858017" duration="5695000" />
     </task>
     <task id="LOCAL-00001" summary="init">
       <option name="closed" value="true" />
@@ -175,7 +193,15 @@
       <option name="project" value="LOCAL" />
       <updated>1703664509077</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="added tests for commit">
+      <option name="closed" value="true" />
+      <created>1703664931525</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1703664931525</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -191,15 +217,25 @@
     <MESSAGE value="modify to use hashes" />
     <MESSAGE value="Blob and Tree under GitObject" />
     <MESSAGE value="added tests" />
-    <option name="LAST_COMMIT_MESSAGE" value="added tests" />
+    <MESSAGE value="added tests for commit" />
+    <option name="LAST_COMMIT_MESSAGE" value="added tests for commit" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
       <breakpoints>
-        <line-breakpoint enabled="true" type="java-line">
+        <line-breakpoint enabled="true" type="java-method">
           <url>file://$PROJECT_DIR$/src/test/TreeTest.java</url>
-          <line>13</line>
-          <option name="timeStamp" value="3" />
+          <line>40</line>
+          <properties class="test.TreeTest" method="testNestedTreesHash">
+            <option name="EMULATED" value="true" />
+            <option name="WATCH_EXIT" value="false" />
+          </properties>
+          <option name="timeStamp" value="8" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/gitify/Tree.java</url>
+          <line>27</line>
+          <option name="timeStamp" value="9" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
