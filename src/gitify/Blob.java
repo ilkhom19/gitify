@@ -4,6 +4,7 @@ import java.security.MessageDigest;
 import java.security.NoSuchAlgorithmException;
 
 public class Blob extends GitObject{
+
     private final String hash;
 
     public Blob(String data) {

@@ -50,5 +50,17 @@ public class Commit {
         }
         return hexString.toString();
     }
+
+    public String getAuthor() {
+        return author;
+    }
+
+    public Tree getTree() {
+        return tree;
+    }
+
+    public String getMessage() {
+        return message;
+    }
 }
 
