@@ -12,7 +12,8 @@ class TreeTest {
         Tree tree = new Tree();
         tree.addEntry("file.txt", blob);
 
-        String expectedHash = "ae07f1ec20e8d5b631976826601cc9b918e259af"; // The expected hash for the tree with one blob entry: "file.txt6b52fce02d9b8c763f2060ae86738f2048eacbc3"
+        // The expected hash for the tree with one blob entry: "file.txt6b52fce02d9b8c763f2060ae86738f2048eacbc3"
+        String expectedHash = "ae07f1ec20e8d5b631976826601cc9b918e259af";
         assertEquals(expectedHash, tree.getHash());
     }
 

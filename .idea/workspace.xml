@@ -4,8 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="3ea15d85-6332-449b-bbb4-fc5574b41068" name="Changes" comment="added tests for commit">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    <list default="true" id="3ea15d85-6332-449b-bbb4-fc5574b41068" name="Changes" comment="modif">
+      <change beforePath="$PROJECT_DIR$/src/test/TreeTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/TreeTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -201,7 +201,15 @@
       <option name="project" value="LOCAL" />
       <updated>1703664931525</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="modif">
+      <option name="closed" value="true" />
+      <created>1703666995291</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1703666995291</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -218,20 +226,12 @@
     <MESSAGE value="Blob and Tree under GitObject" />
     <MESSAGE value="added tests" />
     <MESSAGE value="added tests for commit" />
-    <option name="LAST_COMMIT_MESSAGE" value="added tests for commit" />
+    <MESSAGE value="modif" />
+    <option name="LAST_COMMIT_MESSAGE" value="modif" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
       <breakpoints>
-        <line-breakpoint enabled="true" type="java-method">
-          <url>file://$PROJECT_DIR$/src/test/TreeTest.java</url>
-          <line>40</line>
-          <properties class="test.TreeTest">
-            <option name="EMULATED" value="true" />
-            <option name="WATCH_EXIT" value="false" />
-          </properties>
-          <option name="timeStamp" value="8" />
-        </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/gitify/Tree.java</url>
           <line>27</line>
