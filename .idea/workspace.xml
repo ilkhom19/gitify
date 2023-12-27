@@ -4,8 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="3ea15d85-6332-449b-bbb4-fc5574b41068" name="Changes" comment="modif">
+    <list default="true" id="3ea15d85-6332-449b-bbb4-fc5574b41068" name="Changes" comment="Search in HasMap">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/GitifyDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/GitifyDemo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/gitify/Blob.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/gitify/Blob.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/gitify/Commit.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/gitify/Commit.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/gitify/GitLibrary.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/gitify/GitLibrary.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -218,7 +221,15 @@
       <option name="project" value="LOCAL" />
       <updated>1703667052019</updated>
     </task>
-    <option name="localTasksCounter" value="13" />
+    <task id="LOCAL-00013" summary="Search in HasMap">
+      <option name="closed" value="true" />
+      <created>1703672533333</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1703672533333</updated>
+    </task>
+    <option name="localTasksCounter" value="14" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -236,7 +247,8 @@
     <MESSAGE value="added tests" />
     <MESSAGE value="added tests for commit" />
     <MESSAGE value="modif" />
-    <option name="LAST_COMMIT_MESSAGE" value="modif" />
+    <MESSAGE value="Search in HasMap" />
+    <option name="LAST_COMMIT_MESSAGE" value="Search in HasMap" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
