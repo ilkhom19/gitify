@@ -1,5 +1,7 @@
 package gitify;
 
+import java.security.MessageDigest;
+import java.security.NoSuchAlgorithmException;
 import java.text.SimpleDateFormat;
 import java.util.Date;
 
@@ -23,8 +25,14 @@ public class Commit {
     }
 
     private String calculateHash(Tree tree, String author, String message, Date commitTime) {
-        // Implement hash calculation (omitted for brevity)
-        return "CommitHash";
+        try {
+            MessageDigest digest = MessageDigest.getInstance("SHA-1");
+            String concatenatedData = tree.getHash() + author + message + commitTime.toString();
+            byte[] hashBytes = digest.digest(concatenatedData.getBytes());
+            return bytesToHex(hashBytes);
+        } catch (NoSuchAlgorithmException e) {
+            throw new RuntimeException("SHA-1 algorithm not available", e);
+        }
     }
 
     public void printContent() {
@@ -32,5 +40,15 @@ public class Commit {
         System.out.println("Message: " + message);
         System.out.println("Commit Time: " + new SimpleDateFormat("yyyy-MM-dd HH:mm:ss").format(commitTime));
         System.out.println("Tree Hash: " + tree.getHash());
+        System.out.println("Commit Hash: " + hash);
+    }
+
+    private String bytesToHex(byte[] bytes) {
+        StringBuilder hexString = new StringBuilder();
+        for (byte b : bytes) {
+            hexString.append(String.format("%02x", b));
+        }
+        return hexString.toString();
     }
 }
+
