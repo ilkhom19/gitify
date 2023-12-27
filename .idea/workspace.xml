@@ -4,14 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="3ea15d85-6332-449b-bbb4-fc5574b41068" name="Changes" comment="modify to use hashes">
-      <change afterPath="$PROJECT_DIR$/src/test/BlobTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/TreeTest.java" afterDir="false" />
+    <list default="true" id="3ea15d85-6332-449b-bbb4-fc5574b41068" name="Changes" comment="added tests">
+      <change afterPath="$PROJECT_DIR$/src/test/CommitTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/gitify.iml" beforeDir="false" afterPath="$PROJECT_DIR$/gitify.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/gitify/Blob.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/gitify/Blob.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/gitify/GitObject.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/gitify/GitObject.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/gitify/Tree.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/gitify/Tree.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -45,6 +40,7 @@
     "Application.Main.executor": "Run",
     "Downloaded.Files.Path.Enabled": "false",
     "JUnit.BlobTest.executor": "Run",
+    "JUnit.CommitTest.executor": "Run",
     "JUnit.TreeTest.executor": "Run",
     "JUnit.TreeTest.testTreeHash.executor": "Debug",
     "Repository.Attach.Annotations": "false",
@@ -105,7 +101,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1703659856931</updated>
-      <workItem from="1703659858017" duration="4033000" />
+      <workItem from="1703659858017" duration="4751000" />
     </task>
     <task id="LOCAL-00001" summary="init">
       <option name="closed" value="true" />
@@ -163,7 +159,23 @@
       <option name="project" value="LOCAL" />
       <updated>1703660805673</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="Blob and Tree under GitObject">
+      <option name="closed" value="true" />
+      <created>1703664495676</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1703664495676</updated>
+    </task>
+    <task id="LOCAL-00009" summary="added tests">
+      <option name="closed" value="true" />
+      <created>1703664509076</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1703664509077</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -177,7 +189,9 @@
     <MESSAGE value="wrap up" />
     <MESSAGE value="add demo" />
     <MESSAGE value="modify to use hashes" />
-    <option name="LAST_COMMIT_MESSAGE" value="modify to use hashes" />
+    <MESSAGE value="Blob and Tree under GitObject" />
+    <MESSAGE value="added tests" />
+    <option name="LAST_COMMIT_MESSAGE" value="added tests" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -189,5 +203,10 @@
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
+    <pin-to-top-manager>
+      <pinned-members>
+        <PinnedItemInfo parentTag="java.util.HashMap$Node" memberName="value" />
+      </pinned-members>
+    </pin-to-top-manager>
   </component>
 </project>
